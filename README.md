@@ -7,6 +7,8 @@
 
 **AuctionMatch** is a high-velocity analytical engine designed to solve the "Noise-to-Signal" problem in massive auction datasets. It automates high-probability matching by modeling historical purchase behavior against 150k+ live market listings.
 
+![Interface Demo](public/demo.png)
+
 ## 🚀 Quick Start
 
 ```bash

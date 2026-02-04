@@ -299,7 +299,7 @@ class InventoryProcessor:
             },
             {
                 'name': 'open',
-                'use_locations': True,
+                'use_locations': False,
                 'use_damage': False,
                 'make_limit': None,
                 'model_limit': None,
@@ -350,10 +350,10 @@ class InventoryProcessor:
         initial_count = len(data)
         filtered_data = data.copy()
         
-        # Filter 1: Sale Status = "PURE SALE"
-        if 'Sale Status' in filtered_data.columns:
-            filtered_data = filtered_data[filtered_data['Sale Status'] == 'PURE SALE']
-            logger.debug(f"After Pure Sale filter: {len(filtered_data)} vehicles (removed {initial_count - len(filtered_data)})")
+        # Filter 1: Sale Status = "PURE SALE" (DISABLED for broader recall)
+        # if 'Sale Status' in filtered_data.columns:
+        #     filtered_data = filtered_data[filtered_data['Sale Status'] == 'PURE SALE']
+        #     logger.debug(f"After Pure Sale filter: {len(filtered_data)} vehicles (removed {initial_count - len(filtered_data)})")
         
         # Filter 2: Runs/Drives = "YES"
         if 'Runs/Drives' in filtered_data.columns:

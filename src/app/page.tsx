@@ -162,21 +162,22 @@ export default function Home() {
                   {/* Centered Engineering Explanation */}
                   <div className="max-w-3xl text-center space-y-6">
                     <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-100 border border-slate-200 text-[10px] font-bold uppercase tracking-widest text-slate-500">
-                      <BarChart3 className="h-3.5 w-3.5 text-slate-400" /> Vectorized Auction Analysis Core
+                      <BarChart3 className="h-3.5 w-3.5 text-slate-400" /> System Architecture Demo
                     </div>
                     <h2 className="text-4xl font-black text-slate-900 leading-tight tracking-tight">
-                      Scan 150k+ Copart listings in seconds.
+                      Vectorized Auction Surveillance Engine.
                     </h2>
                     <p className="text-base text-slate-600 font-medium leading-relaxed max-w-2xl mx-auto">
-                      High-velocity pattern recognition engine powered by <strong>NumPy, Pandas, and Difflib</strong>.
-                      Models historical purchase behavior to instantly surface high-probability acquisition targets from
-                      massive inventory datasets.
+                      High-throughput data pipeline architected in <strong>Python (FastAPI) & Next.js</strong>.
+                      Utilizes vectorized NumPy operations and fuzzy logic algorithms (Levenshtein distance) to process
+                      150k+ market listings in sub-second timeframes, identifying optimal acquisition targets based on historical training data.
                     </p>
                   </div>
 
                   {/* Minimized Input Section */}
-                  <div className="w-full max-w-md bg-white rounded-3xl border border-slate-200 p-8 shadow-xl shadow-slate-100/50 relative overflow-hidden">
-                    <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-sky-500 via-indigo-500 to-emerald-500" />
+                  <div className="w-full max-w-md bg-white rounded-xl border border-slate-200 p-8 shadow-xl shadow-slate-100/50 relative overflow-hidden">
+
+
 
                     {isAnalyzing ? (
                       <div className="flex flex-col h-[280px]">
@@ -211,7 +212,7 @@ export default function Home() {
                         <div className="space-y-4">
                           <div className="space-y-2">
                             <div className="flex justify-between items-center text-[10px] font-bold uppercase tracking-wider text-slate-500">
-                              <span>Historical Wins History</span>
+                              <span>Training Data (Historical Wins)</span>
                               <span className="text-slate-300 font-medium lowercase">CSV</span>
                             </div>
                             <div className="relative group">
@@ -236,7 +237,7 @@ export default function Home() {
 
                           <div className="space-y-2">
                             <div className="flex justify-between items-center text-[10px] font-bold uppercase tracking-wider text-slate-500">
-                              <span>Live Copart Inventory</span>
+                              <span>Target Dataset (Inventory)</span>
                               <span className="text-slate-300 font-medium lowercase">CSV</span>
                             </div>
                             <div className="relative group">
@@ -274,18 +275,18 @@ export default function Home() {
                   {/* Pipeline Stats */}
                   <div className="flex items-center gap-12 text-center">
                     <div className="space-y-1">
-                      <p className="text-lg font-black text-slate-900 tracking-tight">V1.0.4</p>
-                      <p className="text-[9px] font-bold uppercase tracking-widest text-slate-400">Analysis Core</p>
+                      <p className="text-lg font-black text-slate-900 tracking-tight">FastAPI & Next.js</p>
+                      <p className="text-[9px] font-bold uppercase tracking-widest text-slate-400">Asynchronous Architecture</p>
                     </div>
                     <div className="h-8 w-px bg-slate-200" />
                     <div className="space-y-1">
-                      <p className="text-lg font-black text-slate-900 tracking-tight">Adaptive</p>
-                      <p className="text-[9px] font-bold uppercase tracking-widest text-slate-400">Recall Logic</p>
+                      <p className="text-lg font-black text-slate-900 tracking-tight">Adaptive Heuristics</p>
+                      <p className="text-[9px] font-bold uppercase tracking-widest text-slate-400">Dynamic Recall Optimization</p>
                     </div>
                     <div className="h-8 w-px bg-slate-200" />
                     <div className="space-y-1">
-                      <p className="text-lg font-black text-slate-900 tracking-tight">Fuzzy</p>
-                      <p className="text-[9px] font-bold uppercase tracking-widest text-slate-400">Pattern Matching</p>
+                      <p className="text-lg font-black text-slate-900 tracking-tight">Levenshtein Distance</p>
+                      <p className="text-[9px] font-bold uppercase tracking-widest text-slate-400">Fuzzy String Matching</p>
                     </div>
                   </div>
                 </div>

@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "concurrently \"next dev\" \"python3 backend/api.py\"",
+    "dev": "concurrently \"next dev\" \"backend/venv/bin/python3 backend/api.py\"",
     "dev:frontend": "next dev",
     "dev:backend": "python3 backend/api.py",
     "build": "next build",
